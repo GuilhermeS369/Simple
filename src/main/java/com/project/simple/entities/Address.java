@@ -33,6 +33,6 @@ public class Address implements Serializable {
     @JoinColumn(name = "client_id")
     @JsonIgnore
     private Client client;
-    private Character character;
+    private Character mainAddress;
 
 }
